@@ -279,7 +279,7 @@ function retirarDineroSinPrompt (totalDineroCajero) {
                 }
             });
             mostrarBilletesHTML("Billetes Entregados", dineroAEntregar);
-            mostrarBilletesHTML("Billetes Dispomibles", dineroDisponible);
+            mostrarBilletesHTML("Billetes Disponibles", dineroDisponible);
             mostrarElemento("buttonContinuar","flex");
             mostrarElemento("articleVarios","none");
             document.getElementById('buttonContinuar').onclick = function(){ mostrarLogin();};
