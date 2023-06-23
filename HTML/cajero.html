@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/styles_cajero.css">
+    <title>Cajero</title>
+</head>
+<body>
+    <header id="header">
+        <h1>Bienvenido al Cajero</h1>
+    </header>
+    <nav id="navOpciones">
+        <button onclick="lanzarCajero()">
+            Lanzar Cajero (Prompt)
+        </button>
+        <br>
+        <button 
+        onclick="ocultarInicio()">
+            Lanzar Cajero (Sin Prompt)
+        </button>
+    </nav>
+    <main>
+        <article id ="articleLogin">
+            <h2>LOGIN</h2>
+            <input type="text" placeholder="No. de Documento" id="numeroDeDocumento">
+            <br>
+            <input type="text" placeholder="Contraseña" id="password">
+            <br>
+            <button onclick="loginUser()">Iniciar Sesión</button>
+        </article>
+        <article id="articleVarios">
+            <h3 id="mensajeVarios"></h3>
+            <input type="number" id="inputVarios">
+            <br>
+            <button id="buttonVarios">Ok</button>
+        </article>
+        <article id = "articleConsole">
+            <h4>CONSOLE</h4>
+            <ul id="consola">
+            </ul>
+            <button id="buttonContinuar">Continuar</button>
+        </article>
+    </main>
+    <footer>
+    </footer>
+    <script src="../JS/scriptCajero.js"></script>
+</body>
+</html>

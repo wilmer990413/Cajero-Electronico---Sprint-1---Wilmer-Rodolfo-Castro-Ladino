@@ -1,0 +1,33 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+#navOpciones {
+    display: flex;
+    justify-content: center;
+}
+#navOpciones > button {
+    margin: 10px;
+}
+
+#articleLogin, #articleConsole , #articleVarios{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#buttonContinuar {
+    display: none;
+}
+
+#consola {
+    list-style-type: ">     ";
+    height: 400px;
+    overflow-y: scroll; 
+}
